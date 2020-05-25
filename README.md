@@ -1,6 +1,9 @@
 # pierced
 钉钉内网穿透
 
+# 使用方法
+ding --config=ding.cfg --subdomain=your-custom-subdomain 80
+
 TCP 穿透需要在数据库里面执行：
 GRANT ALL PRIVILEGES ON *.* TO root@'%' IDENTIFIED BY '123456';
 FLUSH PRIVILEGES;
